@@ -1,4 +1,4 @@
-package com.revature.models;
+package com.revature.model;
 
 /**
  * Users within the ERS application are categorized within the following roles:

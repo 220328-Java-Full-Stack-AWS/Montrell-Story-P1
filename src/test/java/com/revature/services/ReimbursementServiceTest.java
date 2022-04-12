@@ -11,10 +11,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.revature.models.Reimbursement;
-import com.revature.models.Role;
-import com.revature.models.Status;
-import com.revature.models.User;
+import com.revature.model.Reimbursement;
+import com.revature.model.Role;
+import com.revature.model.Status;
+import com.revature.model.User;
 import com.revature.repositories.ReimbursementDAO;
 
 public class ReimbursementServiceTest {

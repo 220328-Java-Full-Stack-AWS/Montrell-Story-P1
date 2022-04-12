@@ -1,10 +1,10 @@
 package com.revature.repositories;
 
-import com.revature.models.User;
+import com.revature.model.User;
 
 import java.util.Optional;
 
-public class UserDAO {
+public class UserDAO { //Makes calls to the database
 
     /**
      * Should retrieve a User from the DB with the corresponding username or an empty optional if there is no match.

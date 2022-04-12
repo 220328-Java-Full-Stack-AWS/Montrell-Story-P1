@@ -1,4 +1,4 @@
-package com.revature.models;
+package com.revature.model;
 
 /**
  * This concrete User class can include additional fields that can be used for
@@ -14,6 +14,9 @@ package com.revature.models;
  * </ul>
  *
  */
+
+
+
 public class User extends AbstractUser {
 
     public User() {
@@ -21,7 +24,7 @@ public class User extends AbstractUser {
     }
 
     /**
-     * This includes the minimum parameters needed for the {@link com.revature.models.AbstractUser} class.
+     * This includes the minimum parameters needed for the {@link AbstractUser} class.
      * If other fields are needed, please create additional constructors.
      */
     public User(int id, String username, String password, Role role) {

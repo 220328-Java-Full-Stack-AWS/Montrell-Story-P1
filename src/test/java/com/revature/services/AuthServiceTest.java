@@ -15,8 +15,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.revature.exceptions.UsernameNotUniqueException;
-import com.revature.models.Role;
-import com.revature.models.User;
+import com.revature.model.Role;
+import com.revature.model.User;
 
 public class AuthServiceTest {
 	

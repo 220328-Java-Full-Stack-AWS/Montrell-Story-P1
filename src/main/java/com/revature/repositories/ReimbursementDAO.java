@@ -1,13 +1,13 @@
 package com.revature.repositories;
 
-import com.revature.models.Reimbursement;
-import com.revature.models.Status;
+import com.revature.model.Reimbursement;
+import com.revature.model.Status;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-public class ReimbursementDAO {
+public class ReimbursementDAO {  //makes calls to the database
 
     /**
      * Should retrieve a Reimbursement from the DB with the corresponding id or an empty optional if there is no match.
