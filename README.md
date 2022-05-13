@@ -1,13 +1,12 @@
 # Project 1 - Employee Reimbursment System (ERS)-RMMS
 
 ## Executive Summary
-The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement. The reimbursement types should have the following options: LODGING, FOOD, TRAVEL
+The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursements and view their past tickets and pending requests. Finance managers can log in and view all reimbursement users. The finance managers should also be able to Create, Read, Update and Delete any user on the system. 
 
 
 # Tech Stack
  - Java 8
  - Apache Maven
- - PostgreSQL
  - AWS RDS
  - Java Servlets
  - JDBC
@@ -15,6 +14,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
  - CSS
  - JavaScript
  - AJAX / Fetch API
+ - Java Server Pages (JSP's)
 
 # Features
  - Domain objects persisted in relational database
@@ -25,14 +25,14 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
  - Validate all user input
  - Unit test coverage for service-layer classes
 
-The persistence-layer system use JDBC to connect to a MySql database. The API-layer utilizes Java servlets to expose a public interface. The front-end view uses HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages is styled to be functional and readable. 
+The persistence-layer system use JDBC to connect to a MySql database. The API-layer utilizes Java servlets to expose a public interface. The front-end view uses HTML/CSS/JavaScript/JSP's to make an application that can call server-side components in a generally RESTful manner. The middle tier follows proper layered architecture, and have JUnit test to verify user persistance into the database. Webpages is styled to be functional and readable. 
 
 
-#### User:
- - As a user, I can submit a request for reimbursement
- - As a user, I can cancel a pending request for reimbursement
- - As a user, I can view my pending and completed past requests for reimbursement
- - As a user, I can edit my pending requests for reimbursement
+#### System Users:
+ - Need to be able to Delete
+ - Neeed to be able to log into the system
+ - Need to be able to edit user login information
+ - Need to be abe to create an account
 
 #### Getting Started
  - Make sure you use a server like Tomcat
