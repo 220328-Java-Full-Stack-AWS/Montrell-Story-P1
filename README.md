@@ -47,11 +47,11 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
 ![Add User](https://user-images.githubusercontent.com/15221031/168384107-ec6383f6-0d98-4fd2-b32d-f116c86992d2.png)
 
 
-**Logical Model**
+**Update User**
 
-![](./imgs/logical.jpg)
 
-**Physical Model**
+![Update User](https://user-images.githubusercontent.com/15221031/168384385-9c0ca458-ca9a-4c7a-af94-10dc42064465.png)
+
 
 ![](./imgs/physical.jpg)
 
