@@ -27,11 +27,6 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 The persistence-layer system use JDBC to connect to a MySql database. The API-layer utilizes Java servlets to expose a public interface. The front-end view uses HTML/CSS/JavaScript to make an application that can call server-side components in a generally RESTful manner. The middle tier shall follow proper layered architecture, and have reasonable JUnit test coverage of the service layer. Webpages is styled to be functional and readable. 
 
-# User Stories
-### Requirements:
-#### Guest:
- - As a guest, I can register for a new account
- - As a guest, I can log into my account
 
 #### User:
  - As a user, I can submit a request for reimbursement
