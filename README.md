@@ -38,8 +38,8 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
  - Make sure you use a server like Tomcat
  - MySQL database 
  - IDE preferably Intellij
- - Make sure you IDE knows where to find the sql-connector
- - Connect your IDE with the database schema you are creating on Mysql or you can use AWS
+ - Make sure your IDE knows where to find the sql-connector
+ - Connect your IDE with the database schema of your choice
  
 # Usage
 -Images should look like below
