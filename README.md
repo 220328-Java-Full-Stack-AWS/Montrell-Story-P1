@@ -42,7 +42,7 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
  - Connect your IDE with the database schema of your choice
  
 # Usage
--Images should look like below
+-Images should look like the below images:
 # Add User
 ![Add User](https://user-images.githubusercontent.com/15221031/168384107-ec6383f6-0d98-4fd2-b32d-f116c86992d2.png)
 
