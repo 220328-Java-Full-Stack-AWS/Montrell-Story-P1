@@ -29,10 +29,11 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
 
 
 #### System Users:
- - Need to be able to Delete
- - Neeed to be able to log into the system
- - Need to be able to edit user login information
- - Need to be abe to create an account
+ - Should be deleted when no longer needed on the system
+ - User should be able to log in to the system
+ - User will be able to change profile information
+ - User will be able to create an account on the system
+ - The user information will persist on the database
 
 #### Getting Started
  - Make sure you use a server like Tomcat
