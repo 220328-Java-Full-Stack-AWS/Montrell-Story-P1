@@ -35,7 +35,7 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
  - As a user, I can edit my pending requests for reimbursement
 
 #### Getting Started
- - A server like Tomcat should be used
+ - Make sure you use a server like Tomcat
  - MySQL database 
  - IDE preferably Intellij
  - Make sure you IDE knows where to find the sql-connector
