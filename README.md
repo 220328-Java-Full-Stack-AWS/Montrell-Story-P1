@@ -34,10 +34,15 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
  - As a user, I can view my pending and completed past requests for reimbursement
  - As a user, I can edit my pending requests for reimbursement
 
-#### Stretch Goals:
- - As an admin, I can change a user's role between admin and user
-
-
+#### Getting Started
+ - A server like Tomcat should be used
+ - MySQL database 
+ - IDE preferably Intellij
+ - Make sure you IDE knows where to find the sql-connector
+ - Connect your IDE with the database schema you are creating on Mysql or you can use AWS
+ 
+# Usage
+-Images should look like below
 # Add User
 ![Add User](https://user-images.githubusercontent.com/15221031/168384107-ec6383f6-0d98-4fd2-b32d-f116c86992d2.png)
 
