@@ -43,9 +43,8 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
  - As an admin, I can change a user's role between admin and user
 
 
-**State-chart Diagram (Reimbursement Statuses)** 
-
-![](./imgs/state-chart.jpg)
+**Add User**
+![Add User](https://user-images.githubusercontent.com/15221031/168384107-ec6383f6-0d98-4fd2-b32d-f116c86992d2.png)
 
 
 **Logical Model**
