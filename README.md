@@ -64,5 +64,8 @@ The persistence-layer system use JDBC to connect to a MySql database. The API-la
 
 
 
+# Contributors
+-Montrell Story
 
+# License
 
